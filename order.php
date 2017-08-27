@@ -18,7 +18,19 @@
 		$paczkow = $_POST['paczkow'];
 		$grzebieni = $_POST['grzebieni'];
 		
-		echo "<h2>$paczkow $grzebieni</h2>"
+/* multiple echo commands can be closed in that way as below,
+but must be without space or tab (must touch the wall) and "enter" after it */
+
+//and this the second way of adding a comment (single-line)
+
+#and here's another	one
+
+echo<<<END
+
+		<h2>Podsumowanie zamówienia</h2>
+		<table border="1" cellpadding="10" cellspacing="0"></table>
+		
+END;
 	
 	?>
 	
