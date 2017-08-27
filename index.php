@@ -22,7 +22,7 @@
 		<br />
 		<br />
 		Ile grzebieni zamawiasz? (1,29zł/szt.):
-		<input type="text" nme="grzebieni"/>
+		<input type="text" name="grzebieni"/>
 		<br />
 		<br />
 		<input type="submit" value="Wyślij zamówienie" />

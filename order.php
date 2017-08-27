@@ -14,7 +14,13 @@
 	
 </head>
 <body>
-
+	<?php
+		$paczkow = $_POST['paczkow'];
+		$grzebieni = $_POST['grzebieni'];
+		
+		echo "<h2>$paczkow $grzebieni</h2>"
+	
+	?>
 	
 
 </body>
